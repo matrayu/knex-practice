@@ -31,20 +31,32 @@ describe(`Articles service object`, function() {
         })
     })
 
-    before(() => {
-        return db
-            .into('blogful_articles').insert(testArticles)
-    })
+    before(() => db('blogful_articles').truncate())
+
+    afterEach(() => db('blogful_articles').truncate())
 
     after(() => db.destroy())
 
-    before(() => db('blogful_articles').truncate())
+    context(`Given 'blogful_articles' has data`, () => {
+        before(() => {
+            return db
+                .into('blogful_articles')
+                .insert(testArticles)
+        })
 
-    describe('getAllArticles', () => {
-        it(`resolves all articles from 'blogful_articles' table`, () => {
+        it(`getAllArticles() resolvews all articles from 'blogful_articles' table`, () => {
             return ArticlesService.getAllArticles(db)
                 .then(actual => {
                     expect(actual).to.eql(testArticles)
+                })
+        })
+    })
+
+    context(`Given 'blogful_articles' has no data`, () => {
+        it(`getAllArticles() resolves an empty array`, () => {
+            return ArticlesService.getAllArticles(db)
+                .then(actual => {
+                    expect(actual).to.eql([])
                 })
         })
     })
