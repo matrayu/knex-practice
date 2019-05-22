@@ -1,0 +1,23 @@
+INSERT INTO blogful_articles (title, content, date_published)
+VALUES
+    ('Fish tricks', 'Elit sit anim deserunt elit ea quis.', now()),
+    ('Not Dogs', 'Exercitation amet nulla aliqua exercitation nulla sint magna.', now()),
+    ('Bluffalo Wings', 'Ipsum ad enim mollit dolore adipisicing id quis non aliquip irure quis.', now()),
+    ('SubstiTuna Salad', 'Eu esse reprehenderit reprehenderit nisi cillum nulla culpa ad est magna.', now()),
+    ('Tofurkey', 'Ea duis eiusmod consectetur adipisicing ex in commodo elit ullamco ipsum.', now()),
+    ('Pretenderloins', 'Incididunt esse voluptate nulla id mollit Lorem elit Lorem irure cillum minim.', now()),
+    ('Steak-believe', 'Ut do velit irure deserunt qui.', now()),
+    ('Kale Seitan', 'Excepteur velit ex est voluptate labore velit ullamco.', now()),
+    ('NoBull Burger', 'Veniam adipisicing voluptate ipsum aute irure dolore consectetur Lorem veniam adipisicing eiusmod tempor quis duis.', now()),
+    ('Turnip the Beet', 'Commodo laborum nostrud ea incididunt officia in ut.', now()),
+    ('Mascarphony', 'Consequat et reprehenderit mollit irure ad tempor excepteur pariatur in officia in qui.', now()),
+    ('Burgatory', 'Est dolor aliquip cupidatat non cillum esse Lorem reprehenderit cillum excepteur id mollit voluptate tempor.', now()),
+    ('Sleight of Ham', 'Laboris ad consectetur magna ipsum sunt eu non est culpa et.', now()),
+    ('Antichovies', 'Veniam consectetur consectetur Lorem pariatur sunt sint nisi culpa aliquip occaecat do tempor cupidatat veniam.', now()),
+    ('Lettuce B. Frank', 'Nostrud ipsum fugiat ea laboris labore irure nostrud.', now()),
+    ('Pepperphony', 'Non Lorem exercitation exercitation esse tempor non veniam ullamco dolor occaecat anim officia.', now()),
+    ('Shamburger', 'Dolore dolore nostrud ea deserunt excepteur minim laborum nulla ea in id excepteur.', now()),
+    ('Facon','Dolore sunt amet dolor qui adipisicing cillum do sint ex nostrud nostrud minim.', now()),
+    ('Salami-get-this-straight', 'Ad labore ullamco non pariatur Lorem tempor aliquip nulla.', now()),
+    ('Mi-steak','Id ex non nisi do nostrud cillum proident.', now()),
+    ('Ghost Beef','Mollit eiusmod aliqua ex ea irure dolor consequat ea consequat.', now())
