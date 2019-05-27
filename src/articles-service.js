@@ -24,6 +24,7 @@ const ArticlesService = {
             .where('id', id)
             .first()
     },
+    //cleanest way to write the above - no select and calling id directly
     deleteArticle(knex, id) {
         /* return Promise.resolve({}) */
         return knex('blogful_articles')
