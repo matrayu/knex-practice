@@ -107,7 +107,7 @@ describe.skip(`Articles service object`, function() {
                     },
                 ]
 
-                //variable filtering out the id of the deleted article form testArticles
+                //variable filtering all items not equal to the id of the deleted article form testArticles
                 const expected = testArticles.filter(article => article.id !== articleId)
 
                 //expect statement
